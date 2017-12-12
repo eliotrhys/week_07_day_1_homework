@@ -4,4 +4,8 @@ public class Wallace extends Kaiju {
         super(name, healthValue, attackValue);
     }
 
+    public String fly(){
+        return "FLYEEEEE!";
+    }
+
 }

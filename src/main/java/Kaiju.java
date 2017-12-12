@@ -18,8 +18,13 @@ public abstract class Kaiju {
         return attackValue;
     }
 
-    public void attackVehicle(Vehicle vehicle){
-        vehicle.getHealthValue() - getAttackValue();
+    public int attackVehicle(Vehicle vehicle){
+        int variable = vehicle.getHealthValue() - getAttackValue();
+        int variable2 = vehicle.healthValue - variable;
+        vehicle.setHealthValue(variable2);
+        return vehicle.getHealthValue();
     }
+
+
 
 }

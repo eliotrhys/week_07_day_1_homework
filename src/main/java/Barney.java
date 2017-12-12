@@ -4,4 +4,8 @@ public class Barney extends Kaiju {
         super(name, healthValue, attackValue);
     }
 
+    public String fly(){
+        return "I CAN FLY!";
+    }
+
 }

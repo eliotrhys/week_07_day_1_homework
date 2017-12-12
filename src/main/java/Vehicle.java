@@ -11,4 +11,8 @@ public abstract class Vehicle {
     public int getHealthValue() {
         return healthValue;
     }
+
+    public void setHealthValue(int healthValue) {
+        this.healthValue = healthValue;
+    }
 }
